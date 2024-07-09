@@ -13,18 +13,18 @@ describe('multiply', function() {
     expect(result).to.equal(15);
   });
 
-//   it('should return 0 when one of the numbers is 0', function() {
-//     const result = multiply(5, 0);
-//     expect(result).to.equal(0);
-//   });
+  it('should return 0 when one of the numbers is 0', function() {
+    const result = multiply(5, 0);
+    expect(result).to.equal(0);
+  });
 
-//   it('should return a negative number when one of the numbers is negative', function() {
-//     const result = multiply(5, -3);
-//     expect(result).to.equal(-15);
-//   });
+  it('should return a negative number when one of the numbers is negative', function() {
+    const result = multiply(5, -3);
+    expect(result).to.equal(-15);
+  });
 
-//   it('should return a positive number when both numbers are negative', function() {
-//     const result = multiply(-5, -3);
-//     expect(result).to.equal(15);
-//   });
+  it('should return a positive number when both numbers are negative', function() {
+    const result = multiply(-5, -3);
+    expect(result).to.equal(15);
+  });
 });
